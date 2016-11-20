@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Cafe Team</string>
+    <string name="team_header">2016</string>
+
+    <string name="transition_member_avatar" translatable="false">transition_member_avatar</string>
+
+</resources>

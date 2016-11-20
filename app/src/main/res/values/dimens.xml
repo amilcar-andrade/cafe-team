@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="text_size_title">16sp</dimen>
+    <dimen name="text_size_header">14sp</dimen>
+    <dimen name="listPreferredItemSubHeaderHeight">48dp</dimen> <!-- Header height 48dp-->
+    <dimen name="divider_height">1px</dimen>
+    <dimen name="keyline_2">72dp</dimen>
+    <dimen name="z_app_bar">4dp</dimen>
+
+    <dimen name="avatar_size">40dp</dimen>
+    <dimen name="avatar_bounds">48dp</dimen>
+    <dimen name="avatar_padding">4dp</dimen>
+    <dimen name="avatar_margin">12dp</dimen>
+    <dimen name="large_avatar_size">120dp</dimen>
+
+</resources>

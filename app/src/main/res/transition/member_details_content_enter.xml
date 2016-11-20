@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+    android:transitionOrdering="together"
+    android:duration="@android:integer/config_mediumAnimTime"
+    android:interpolator="@android:interpolator/linear_out_slow_in"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <transitionSet>
+        <slide
+            android:slideEdge="bottom">
+        <targets>
+            <target android:excludeId="@android:id/navigationBarBackground" />
+            <target android:excludeId="@android:id/statusBarBackground" />
+        </targets>
+        </slide>
+        <fade android:fadingMode="fade_in"/>
+    </transitionSet>
+
+</transitionSet>

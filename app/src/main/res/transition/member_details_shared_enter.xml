@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <transitionSet>
+        <targets>
+            <target android:targetId="@id/avatar" />
+        </targets>
+        <changeBounds android:duration="300">
+            <arcMotion
+                android:maximumAngle="50" />
+        </changeBounds>
+        <changeTransform />
+        <changeClipBounds />
+        <changeImageTransform />
+    </transitionSet>
+</transitionSet>

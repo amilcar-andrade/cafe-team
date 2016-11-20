@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?android:listPreferredItemHeightLarge"
+    android:gravity="center_vertical"
+    android:foreground="?android:selectableItemBackground"
+    android:minHeight="?android:listPreferredItemHeightLarge"
+    android:paddingRight="@dimen/padding_normal">
+
+    <a2ndrade.cafeteam.ui.widget.CircularImageView
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/avatar_bounds"
+        android:layout_height="@dimen/avatar_bounds"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/avatar_margin"
+        android:layout_marginStart="@dimen/avatar_margin"
+        android:padding="@dimen/avatar_padding"
+        android:src="@drawable/avatar_placeholder"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@id/avatar"
+        android:lines="1"
+        android:textColor="@color/text_secondary_dark"
+        android:textSize="@dimen/text_size_title"
+        android:textAppearance="@android:style/TextAppearance.Material.Body1"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/name"
+        android:layout_toEndOf="@id/avatar"
+        android:lines="2"
+        android:textColor="@color/text_tertiary_dark"
+        android:textAppearance="@android:style/TextAppearance.Material.Body1"
+        android:ellipsize="end"/>
+
+</RelativeLayout>
