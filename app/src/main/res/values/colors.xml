@@ -9,5 +9,6 @@
     <color name="text_secondary_dark">#8a000000</color> <!-- 54% -->
     <color name="text_tertiary_dark">#61000000</color> <!-- 38% -->
     <color name="divider">#1f000000</color> <!-- 12% black -->
+    <color name="light_immersive_bars">#b3eeeeee</color> <!-- 70% grey 200 -->
 
 </resources>

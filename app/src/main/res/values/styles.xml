@@ -9,6 +9,8 @@
     </style>
 
     <style name="AppTheme.MemberDetails">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/light_immersive_bars</item>
         <item name="android:windowAllowEnterTransitionOverlap">false</item>
         <item name="android:windowSharedElementEnterTransition">@transition/member_details_shared_enter</item>
         <item name="android:windowEnterTransition">@transition/member_details_content_enter</item>
