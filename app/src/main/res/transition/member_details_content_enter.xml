@@ -5,12 +5,22 @@
     android:duration="400"
     android:interpolator="@android:interpolator/linear_out_slow_in">
 
-    <slide android:slideEdge="bottom">
+    <transitionSet>
         <targets>
             <target android:excludeId="@android:id/navigationBarBackground" />
             <target android:excludeId="@android:id/statusBarBackground" />
         </targets>
-    </slide>
+        <slide android:slideEdge="bottom">
+            <targets>
+                <target android:excludeId="@android:id/navigationBarBackground" />
+                <target android:excludeId="@android:id/statusBarBackground" />
+            </targets>
+        </slide>
+        <fade
+            android:startDelay="120"
+            android:duration="120"
+            android:interpolator="@android:interpolator/linear_out_slow_in" />
+    </transitionSet>
 
     <fade android:duration="@android:integer/config_mediumAnimTime">
         <targets>
